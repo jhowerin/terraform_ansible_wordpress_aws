@@ -1,0 +1,11 @@
+#hosts-dev
+
+[db]
+db_ec2 ansible_host=10.0.1.156
+    
+[webservers]
+web_ec2 ansible_host=10.0.0.177
+
+[local]
+control ansible_connection=local
+
